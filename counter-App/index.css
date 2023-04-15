@@ -1,0 +1,67 @@
+.body{
+    background-image:url(./images/station.jpg);
+}
+#header{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+#count-el{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+#i-btn{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: red;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+
+}
+#s-btn{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: green;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#save-el{
+    margin-top: 30px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+}
+#i-btn:hover{
+    background: rgb(255, 255, 255,0.2);
+    color: #000;
+    transition: 0.3s;
+  }
+  #s-btn:hover{
+    background: rgb(255, 255, 255,0.2);
+    color: #000;
+    transition: 0.3s;
+  }
